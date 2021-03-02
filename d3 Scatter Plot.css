@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: darkcyan;
+  min-height: 100vh;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: 700;
+  fill: darkcyan;
+  stroke: black;
+}
+
+#sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  fill: darkcyan;
+  stroke: black;
+}
+
+.graph {
+  margin-bottom: -4px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 2px black;
+}
+
+#tooltip {
+  position: absolute;
+  max-width: 200px; /* As wide as the tooltip is allowed to be. Otherwise it is auto. (height is also auto by default) */
+  font-size: 12px;
+  padding: 5px;
+  background-color: darkcyan;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+#author {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+#my-link {
+  display: block;
+  margin-top: 0.3rem;
+  text-decoration: none;
+}
